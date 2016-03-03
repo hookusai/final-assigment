@@ -1,0 +1,48 @@
+/*
+Error: Invalid CSS after "red": expected expression (e.g. 1px, bold), was ";"
+        on line 2 of E:\Work\FE CSC\final\sass\pages\home.sass
+
+1: p {
+2:   color: red;
+3:   a {
+4:     color: green;
+5:   }
+6: }
+
+Backtrace:
+E:\Work\FE CSC\final\sass\pages\home.sass:2
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/scss/parser.rb:1165:in `expected'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/lexer.rb:220:in `expected!'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:602:in `assert_done'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:63:in `parse'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/script/parser.rb:183:in `parse'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/script.rb:27:in `parse'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:1120:in `parse_script'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:710:in `parse_property'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:681:in `parse_property_or_rule'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:647:in `parse_line'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:525:in `build_tree'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:544:in `block in append_children'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `each'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `append_children'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:534:in `block in build_tree'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:527:in `each'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:527:in `build_tree'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:544:in `block in append_children'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `each'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `append_children'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+E:/Software/koala/Koala/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+E:/Software/koala/Koala/bin/sass:18:in `load'
+E:/Software/koala/Koala/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"red\": expected expression (e.g. 1px, bold), was \";\"\A         on line 2 of E:\Work\FE CSC\final\sass\pages\home.sass\A \A 1: p {\A 2:   color: red;\A 3:   a {\A 4:     color: green;\A 5:   }\A 6: }"; }

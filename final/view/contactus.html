@@ -1,0 +1,119 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+
+    <!--bootstrap-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- Warning: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3,7.2/html5shiv.min.js"></script>
+        <script src="htpps://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <thead>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="home.html">FURNITURE</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="home.html">Home</a></li>
+                        <li><a runat="server" href="aboutus.html">About Us</a></li>
+                        <li><a runat="server" href="contactus.html">Contact Us</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a runat="server" href="register.html">Register</a></li>
+                        <li><a runat="server" href="login.html">Log in</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </thead>
+
+    <tbody>
+        <div class="row">
+            <div class="col-md-3 bg-primary">
+                <h3>Funiture Corp</h3>
+                <address>
+                    One Microsoft Way<br />
+                    Redmond, WA 98052-6399<br />
+                    <abbr title="Phone">P:</abbr>
+                    425.555.0100
+                </address>
+
+                <address>
+                    <span class="glyphicon glyphicon-envelope" /><strong> Support:</strong>   <a href="mailto:Support@example.com">Support@example.com</a><br />
+                    <span class="glyphicon glyphicon-envelope" /><strong> Marketing:</strong> <a href="mailto:Marketing@example.com">Marketing@example.com</a>
+                </address>
+            </div>
+            <div class="col-md-8">
+                <h3>Contact Us</h3>
+                <p>We would be pleased to answer any questions you may have. Please contact us at the following, or use the contact form below:</p>
+                <div class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="inputEmail1">* Email</label>
+                        <div class="col-md-10">
+                            <input id="inputEmail1" class="form-control" type="email" placeholder="Email" autofocus="autofocus" required="required" data-type="email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="name1">Name</label>
+                        <div class="col-md-10">
+                            <input id="name1" class="form-control" type="text" placeholder="Contact Name" name="name" data-type="name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="company">Company</label>
+                        <div class="col-md-10">
+                            <input id="company" class="form-control" type="text" placeholder="Company" name="company" data-type="company">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="phone11">Phone</label>
+                        <div class="col-md-10">
+                            <input id="phone11" class="form-control" type="tel" name="phone1" data-type="phone1">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="control-label col-md-2" for="inputRemarks11">Details</label>
+                        <div class="col-md-10">
+                            <textarea id="inputRemarks11" class="form-control" cols="40" rows="5" data-type="remarks"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-md-10 col-md-offset-2">
+                            <button class="btn btn-primary" type="submit">
+                                Send
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </tbody>
+
+
+
+    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--Include all compiled plugins(below), or include individual files as needed-->
+    <script src="../script/bootstrap.min.js"></script>
+</body>
+
+</html>

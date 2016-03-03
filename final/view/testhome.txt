@@ -1,0 +1,18 @@
+<div class="col-md-4">
+                <h2>Our Products</h2>
+                <p>
+                    We have a milions of product
+                </p>
+                <p>
+                    <a class="btn btn-default" href="http://www.google.com">View more &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Contact Us</h2>
+                <p>
+                    We love to hear from you! Please call, click or come on over.
+                </p>
+                <p>
+                    <a class="btn btn-default" href="contactus.html">View more &raquo;</a>
+                </p>
+            </div>

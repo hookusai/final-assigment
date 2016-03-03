@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Home</title>
+
+    <!--bootstrap-->
+    <link href="../css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries-->
+    <!-- Warning: Respond.js doesn't work if you view the page via file://-->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3,7.2/html5shiv.min.js"></script>
+        <script src="htpps://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+    <thead>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" runat="server" href="home.html">FURNITURE</a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a runat="server" href="home.html">Home</a></li>
+                        <li><a runat="server" href="aboutus.html">About Us</a></li>
+                        <li><a runat="server" href="contactus.html">Contact Us</a></li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a runat="server" href="register.html">Register</a></li>
+                        <li><a runat="server" href="login.html">Log in</a></li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+    </thead>
+
+    <tbody>
+        <div class="container-fluid">
+            <div id="carouselController" class="carousel slide" data-ride="carousel" data-interval="5000">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carouselController" data-slide-to="0" class="active"></li>
+                    <li data-target="#carouselController" data-slide-to="1"></li>
+                    <li data-target="#carouselController" data-slide-to="2"></li>
+                    <li data-target="#carouselController" data-slide-to="3"></li>
+                </ol>
+
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="../sources/images/home/Courasel_1.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <img src="../sources/images/home/Courasel_2.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <img src="../sources/images/home/Courasel_3.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+
+                        <img src="../sources/images/home/Courasel_4.jpg" />
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                    <div class="item">
+                        <div class="embed-responsive embed-responsive-16by9">
+                            <iframe width="100%" height="500px" class="embed-responsive-item" src="//www.youtube.com/embed/dAa6bOWB8qY"></iframe>
+                        </div>
+                        <div class="carousel-caption">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carouselController" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="right carousel-control" href="#carouselController" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+        </div>
+        <div class="resp-col resp-xs1 resp-s2 resp-m6 resp-ml6 resp-l12 resp-xl12 container homepage">
+            <div class="resp-col resp-xs1 resp-s2 resp-m6 resp-ml6 resp-l12 resp-xl12 container-hero-image full-bleed">
+                <div class="resp-row resp-section ">
+                    <div class="resp-col resp-xs1 resp-s2 resp-m6 resp-ml6 resp-l4 resp-xl4 container-queryform">
+                        <div class="resp-module">
+                            <div class="cont widget-query widget-query-dates-required widget-query-compact-occupancy  widget-query-nights-display" data-long-stays-base-url="http://Groups.hotels.com/GroupForm.cfm?locale=vi_VN&amp;es=1" data-prefix="qf-0" tabindex="-1">
+                                <h1 class="cont-hd-alt widget-query-heading">Tìm khách sạn</h1>
+                                    <form class="cont-bd" action="/search.do" role="search">
+                                        <fieldset class="widget-query-destination">
+                                            <input aria-live="polite" aria-autocomplete="both" aria-label="Search" role="combobox" aria-haspopup="true" autocorrect="off" autocomplete="off" class="clearable widget-query-autosuggest autosuggest-enabled" name="q-destination" id="qf-0q-destination" aria-required="true" data-current-location="Vị trí hiện tại" type="text"><label for="qf-0q-destination">Điểm đến, khách sạn, địa danh hoặc địa chỉ</label><input name="as-shown" value="false" type="hidden">
+                                        </fieldset>
+                                        <fieldset class="widget-query-dates">
+                                            <div class="widget-query-date">
+                                                <label id="widget-query-label-2" for="qf-0q-localised-check-in">Nhận phòng</label>
+                                                <input autocomplete="off" aria-labelledby="widget-query-label-1 widget-query-label-2" class="query-localised-check-in " name="q-localised-check-in" id="qf-0q-localised-check-in" value="02/03/2016" placeholder="dd/mm/yyyy" type="text"><label id="widget-query-label-1" class="aria-label" data-input="qf-0q-localised-check-in"></label><span class="widget-query-day">Thứ tư</span>
+                                            </div>
+                                            <div class="widget-query-date">
+                                                <label id="widget-query-label-4" for="qf-0q-localised-check-out">Trả phòng</label>
+                                                <input autocomplete="off" aria-labelledby="widget-query-label-3 widget-query-label-4" class="query-localised-check-out " name="q-localised-check-out" id="qf-0q-localised-check-out" value="03/03/2016" placeholder="dd/mm/yyyy" type="text"><label id="widget-query-label-3" class="aria-label" data-input="qf-0q-localised-check-out"></label><span class="widget-query-day">Thứ năm</span>
+                                            </div>
+                                            <span class="widget-query-nights" id="qf-0q-nights"><span><span class="widget-query-num-nights">1</span> </span> <span class="widget-query-nights-label">Đêm</span></span>
+                                        </fieldset>
+                                        <fieldset class="widget-query-triptype">
+                                            <span>Đi:</span><label><input name="q-triptype" value="work" type="radio">Công tác</label><label><input name="q-triptype" value="leisure" type="radio">Du lịch</label>
+                                        </fieldset>
+                                        <fieldset class="widget-query-rooms">
+                                            <div class="widget-query-room-number">
+                                                <label for="qf-0q-rooms">Phòng</label>
+                                                <select name="q-rooms" class="query-rooms" id="qf-0q-rooms"><option selected="selected">1</option><option>2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option><option value="9">9+</option></select>
+                                            </div>
+                                            <fieldset class="widget-query-room-options">
+                                                <legend class="widget-query-room-options-label">Phòng 1:</legend>
+                                                    <div class="widget-query-people">
+                                                        <div class="widget-query-adults"><label for="qf-0q-room-0-adults">Người lớn</label><select name="q-room-0-adults" id="qf-0q-room-0-adults"><option>1</option><option selected="selected">2</option><option>3</option><option>4</option><option>5</option><option>6</option><option>7</option><option>8</option></select><span>Tuổi 18+</span>
+                                                        </div>
+                                                        <div class="widget-query-children">
+                                                            <label for="qf-0q-room-0-children">Trẻ em</label>
+                                                            <select name="q-room-0-children" id="qf-0q-room-0-children"><option selected="selected">0</option><option>1</option><option>2</option><option>3</option></select><span>0-17</span>
+                                                        </div>
+                                                    </div>
+                                            </fieldset>
+                                        </fieldset>
+                                        <fieldset class="widget-query-occupancy">
+                                            <div class="widget-query-room-number">
+                                                <label for="qf-0q-compact-occupancy">Phòng</label>
+                                                <select id="qf-0q-compact-occupancy"><option data-rooms="1" data-adults="1">1 phòng, 1 người lớn</option><option data-rooms="1" data-adults="2" selected="selected">1 phòng, 2 người lớn</option><option>Lựa chọn khác</option></select>
+                                            </div>
+                                        </fieldset>
+                                        <fieldset class="widget-query-ft"><button type="submit" class="cta cta-strong">Tìm</button>
+                                        </fieldset>
+                                        <div class="widget-query-sort"></div>
+                                        <div class="widget-query-filters"></div>
+                                        <input name="page-name" value="HomePage" type="hidden">
+                                    </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="resp-col resp-xs1 hi-s hi-m hi-ml hi-l hi-xl local-deals-banner">
+                        <div class="resp-module"><a href="/mobile/search.html?dayInMonthCheckOut=1&amp;monthCheckIn=2&amp;dayInMonthCheckIn=29&amp;pointName=Current+Location&amp;monthCheckOut=3&amp;numberOfRooms=1&amp;roomInfoList[0].numberOfAdults=2&amp;localDeals=true&amp;roomInfoList[0].numberOfChildren=0" rel="nofollow"><span class="local-deals-button"><span class="button-text">Deal trong khu vực đêm nay</span></span></a></div>
+                    </div>
+                    <div class="resp-col resp-xs1 resp-s2 resp-m6 resp-ml6 resp-l4 resp-xl4 returning-user">
+                        <div class="resp-module">
+                            <div data-flexible-component="responsive-returning-user" data-flexible-component-data=""><span class="button maximize-button"></span>
+                                <div style="display: block;" class="content"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="img" style="background-image: url(https://pgicapital.org/wp-content/uploads/2015/05/CMBS-Hotel-Loans-Financing-for-Senior-Debt-from-PGiCapital.org_.jpg);">
+                    <div class="link-box resp-module">
+                        <a href="/hotel/details.html?tab=description&amp;hotelId=114635&amp;validate=false&amp;previousDateful=false&amp;reviewOrder=date_newest_first" class="hero-image-link"><span class="summary-box"><span class="summary-bg"></span><span class="title-box">
+                        <h2 class="hero-image-title">The Westin Los Angeles Airport</h2>
+                        <h3 class="hero-image-subtitle">Los Angeles</h3></span></span></a>
+                    </div>
+                    <div class="shadow-overlay-top"></div>
+                    <div class="shadow-overlay-bottom"></div>
+                </div>
+            </div>
+        </div>
+    </tbody>
+    <tfooter>
+        <div class="row">
+            <div class="col-md-4">
+                <h2>About Us</h2>
+                <p>
+                    Since 1964, England has been building quality upholstered furniture in the foothills of East Tennessee. England was co-founded by Charles, Eugene, and Dwight England whose goal was to provide employment to the people of Appalachia
+                </p>
+                <p>
+                    <a class="btn btn-default" href="aboutus.html">View more &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Our Products</h2>
+                <p>
+                    We have a milions of product
+                </p>
+                <p>
+                    <a class="btn btn-default" href="http://www.google.com">View more &raquo;</a>
+                </p>
+            </div>
+            <div class="col-md-4">
+                <h2>Contact Us</h2>
+                <p>
+                    We love to hear from you! Please call, click or come on over.
+                </p>
+                <p>
+                    <a class="btn btn-default" href="contactus.html">View more &raquo;</a>
+                </p>
+            </div>
+        </div>
+    </tfooter>
+
+    <!--jQuery (necessary for Bootstrap's JavaScript plugins)-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!--Include all compiled plugins(below), or include individual files as needed-->
+    <script src="../script/bootstrap.min.js"></script>
+</body>
+<link rel=”stylesheet” type=”text/css”  href=”../sass/main.css”>
+
+</html>
